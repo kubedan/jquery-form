@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>jquery-form</artifactId>
-    <version>4.2.2-SNAPSHOT</version>
+    <version>4.2.2</version>
     <name>jQuery Form Plugin</name>
     <description>WebJar for jQuery Form Plugin</description>
     <url>http://webjars.org</url>
@@ -41,7 +41,7 @@
         <url>http://github.com/webjars/jquery-form</url>
         <connection>scm:git:https://github.com/webjars/jquery-form.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/jquery-form.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>jquery-form-4.2.2</tag>
     </scm>
 
     <dependencies>
@@ -54,7 +54,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>4.2.1</upstream.version>
+        <upstream.version>${version}</upstream.version>
         <upstream.url>https://raw.githubusercontent.com/malsup/form/v${upstream.version}/dist</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
